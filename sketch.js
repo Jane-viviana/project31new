@@ -45,9 +45,9 @@ function draw() {
     particle.push(new Particle(b,0,10,10));
   }
 
-  if(frameCount%1000 === 0){
+  if(frameCount % 60 === 0){
     var rand = Math.Round(random(20,100));
-    particle.push(new Particle(b,0,10,10));
+    particle.push(new Particle(rand,0,10,10));
    }
 
 for(i = 0; i<division.length; i++){
